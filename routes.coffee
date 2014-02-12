@@ -22,6 +22,14 @@ Router.map ->
     data: ->
       new Episode
 
+  if Meteor.isServer
+    @route 'rss',
+      where: 'server'
+      path: '/rss/episodes'
+      action: ->
+        @response.write Meteor.call 'serveRSS'
+        @response.end()
+
   @route 'notFound',
     path: '*'
     where: 'server'

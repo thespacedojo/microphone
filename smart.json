@@ -6,6 +6,7 @@
     "simple-form": {},
     "s3": {},
     "minimongoid": {},
-    "timeago": {}
+    "timeago": {},
+    "npm": {}
   }
 }
