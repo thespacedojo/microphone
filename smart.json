@@ -3,6 +3,7 @@
     "iron-router": {},
     "accounts-entry": {},
     "handlebars-server": {},
-    "simple-form": {}
+    "simple-form": {},
+    "s3": {}
   }
 }

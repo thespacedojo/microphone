@@ -5,7 +5,8 @@
       "iron-router": {},
       "accounts-entry": {},
       "handlebars-server": {},
-      "simple-form": {}
+      "simple-form": {},
+      "s3": {}
     },
     "packages": {
       "iron-router": {
@@ -27,6 +28,11 @@
         "git": "https://github.com/BeDifferential/simple-form.git",
         "tag": "v0.0.20",
         "commit": "fdba8e6604bfd71668304561a4fe6db3295bd1e9"
+      },
+      "s3": {
+        "git": "https://github.com/Lepozepo/S3.git",
+        "tag": "v1.2.5",
+        "commit": "602fd599206d9082f09bc4b5c69af9f7d4bc0707"
       },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",
