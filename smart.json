@@ -5,6 +5,7 @@
     "handlebars-server": {},
     "simple-form": {},
     "s3": {},
-    "minimongoid": {}
+    "minimongoid": {},
+    "timeago": {}
   }
 }

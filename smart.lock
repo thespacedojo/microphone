@@ -7,7 +7,8 @@
       "handlebars-server": {},
       "simple-form": {},
       "s3": {},
-      "minimongoid": {}
+      "minimongoid": {},
+      "timeago": {}
     },
     "packages": {
       "iron-router": {
@@ -39,6 +40,11 @@
         "git": "https://github.com/Exygy/minimongoid.git",
         "tag": "v0.8.3",
         "commit": "8a4849426f1775f9886f303067e50877696fae43"
+      },
+      "timeago": {
+        "git": "https://github.com/BeDifferential/timeago.git",
+        "tag": "v0.0.3",
+        "commit": "39135ea44ba69503d6b1e1e17431a57cb315cb21"
       },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",

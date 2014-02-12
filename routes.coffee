@@ -10,6 +10,8 @@ AdminController = RouteController.extend
 Router.map ->
   @route 'home',
     path: '/'
+    data: ->
+      episodes: Episode.all()
 
   @route 'dashboard',
     path: '/dashboard'
