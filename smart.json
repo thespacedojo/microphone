@@ -4,6 +4,7 @@
     "accounts-entry": {},
     "handlebars-server": {},
     "simple-form": {},
-    "s3": {}
+    "s3": {},
+    "minimongoid": {}
   }
 }

@@ -6,7 +6,8 @@
       "accounts-entry": {},
       "handlebars-server": {},
       "simple-form": {},
-      "s3": {}
+      "s3": {},
+      "minimongoid": {}
     },
     "packages": {
       "iron-router": {
@@ -34,10 +35,20 @@
         "tag": "v1.2.5",
         "commit": "602fd599206d9082f09bc4b5c69af9f7d4bc0707"
       },
+      "minimongoid": {
+        "git": "https://github.com/Exygy/minimongoid.git",
+        "tag": "v0.8.3",
+        "commit": "8a4849426f1775f9886f303067e50877696fae43"
+      },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",
         "tag": "v0.1.1",
         "commit": "ce88ac66c0dc107dc2da93ce152616115838101f"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
       }
     }
   }
