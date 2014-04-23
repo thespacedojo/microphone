@@ -17,7 +17,8 @@
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
         "branch": "master"
       },
-      "reactive-table": {}
+      "reactive-table": {},
+      "inflectionizer": {}
     },
     "packages": {
       "iron-router": {
@@ -69,6 +70,11 @@
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
         "tag": "v0.3.6",
         "commit": "c3d37f5ce5129133b8b88985f7f9c4a56548a1ed"
+      },
+      "inflectionizer": {
+        "git": "https://github.com/Differential/inflectionizer.git",
+        "tag": "v0.2.0",
+        "commit": "03d91efe8eb9461e5752d66de560e6c9db9bcce0"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

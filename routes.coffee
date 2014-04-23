@@ -38,6 +38,16 @@ Router.map ->
         @response.write Meteor.call 'serveRSS'
         @response.end()
 
+  @route 'download',
+    where: 'server'
+    path: '/download/:slug'
+    action: ->
+      episode = Episode.first({slug: @params.slug})
+      console.log episode
+      episode.update({downloadCount: episode.downloadCount + 1})
+      @response.writeHead '301', {Location: episode.url}
+      @response.end()
+
   @route 'tests',
     path: '/tests'
     layoutTemplate: 'tests'

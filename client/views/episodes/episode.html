@@ -4,7 +4,7 @@
 <p class="date">{{timeago createdAt}}</p>
 {{body}}
 {{#if url}}
-<a href="{{url}}">Download</a>
+<a class="download" href="{{pathFor 'download'}}">Download</a> {{pluralize downloadCount 'listen'}}
 {{/if}}
 </article>
 </template>
