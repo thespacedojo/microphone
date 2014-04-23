@@ -43,7 +43,7 @@ Router.map ->
     action: ->
       episode = Episode.first({slug: @params.slug})
       episode.update({downloadCount: episode.downloadCount + 1})
-      @response.writeHead '301', {Location: episode.url}
+      @response.writeHead '302', {Location: episode.url}
       @response.end()
 
   @route 'tests',
