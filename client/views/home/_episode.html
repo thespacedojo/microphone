@@ -1,0 +1,10 @@
+<template name="_episode">
+  <article>
+    <h3><a href="{{pathFor 'episode'}}">{{title}}</a></h3>
+    <p class="date">{{timeago createdAt}}</p>
+    {{body}}
+    {{#if url}}
+      <a class="download" href="{{pathFor 'download'}}">Download</a> {{pluralize downloadCount 'listen'}}
+    {{/if}}
+  </article>
+</template>
