@@ -1,2 +1,13 @@
 <template name="dashboard">
+  <div class="container">
+    <h2>Episodes</h2>
+
+    <ul>
+    {{#each episodes}}
+      <li><a href="/somewhere">{{title}}</a></li>
+    {{/each}}
+    </ul>
+
+    <a href="/admin/podcasts/new" class="btn btn-default">New Episode</a>
+  </div>
 </template>

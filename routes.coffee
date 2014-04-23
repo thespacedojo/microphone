@@ -13,6 +13,9 @@ Router.map ->
 
   @route 'dashboard',
     path: '/dashboard'
+    data: ->
+      episodes: Episode.all()
+
 
   @route 'newPodcast',
     path: '/admin/podcasts/new'
