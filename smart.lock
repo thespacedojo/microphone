@@ -16,7 +16,8 @@
       "s3-uploader": {
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
         "branch": "master"
-      }
+      },
+      "reactive-table": {}
     },
     "packages": {
       "iron-router": {
@@ -64,6 +65,11 @@
         "branch": "master",
         "commit": "a032c1f0359b1e1cfd4219ec00670de2537ae29b"
       },
+      "reactive-table": {
+        "git": "https://github.com/ecohealthalliance/reactive-table.git",
+        "tag": "v0.3.6",
+        "commit": "c3d37f5ce5129133b8b88985f7f9c4a56548a1ed"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -103,6 +109,11 @@
         "git": "https://github.com/digilord/meteor-bootboxjs.git",
         "branch": "master",
         "commit": "64c297ee6205ca1dc13a610e0b55092f93916d0d"
+      },
+      "just-i18n": {
+        "git": "https://github.com/subhog/meteor-just-i18n.git",
+        "tag": "v0.2.4",
+        "commit": "91decfcf5b3b5e67f202a67658350b862330bf3d"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

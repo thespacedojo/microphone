@@ -13,6 +13,7 @@
     "mocha-web": {},
     "s3-uploader": {
       "git": "https://github.com/Differential/meteor-s3-uploader.git"
-    }
+    },
+    "reactive-table": {}
   }
 }

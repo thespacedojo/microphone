@@ -2,11 +2,9 @@
   <div class="container">
     <h2>Episodes</h2>
 
-    <ul>
-    {{#each episodes}}
-      <li><a href="/somewhere">{{title}}</a></li>
-    {{/each}}
-    </ul>
+    <div>
+      {{> reactiveTable collection=episodes settings=settings}}
+    </div>
 
     <a href="/admin/episodes/new" class="btn btn-default">New Episode</a>
   </div>
