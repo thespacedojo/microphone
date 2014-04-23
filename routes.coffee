@@ -21,7 +21,6 @@ Router.map ->
     data: ->
       episodes: Episode.all()
 
-
   @route 'newPodcast',
     path: '/admin/episodes/new'
     data: ->
@@ -43,7 +42,6 @@ Router.map ->
     path: '/download/:slug'
     action: ->
       episode = Episode.first({slug: @params.slug})
-      console.log episode
       episode.update({downloadCount: episode.downloadCount + 1})
       @response.writeHead '301', {Location: episode.url}
       @response.end()
