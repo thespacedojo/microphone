@@ -1,12 +1,16 @@
 {
   "packages": {
     "iron-router": {},
-    "accounts-entry": {},
+    "accounts-entry": {
+      "git": "https://github.com/Differential/accounts-entry.git",
+      "branch": "master"
+    },
     "handlebars-server": {},
     "simple-form": {},
     "s3": {},
     "minimongoid": {},
     "timeago": {},
-    "npm": {}
+    "npm": {},
+    "mocha-web": {}
   }
 }

@@ -3,39 +3,38 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {},
-      "accounts-entry": {},
+      "accounts-entry": {
+        "git": "https://github.com/Differential/accounts-entry.git",
+        "branch": "master"
+      },
       "handlebars-server": {},
       "simple-form": {},
       "s3": {},
       "minimongoid": {},
       "timeago": {},
-      "npm": {}
+      "npm": {},
+      "mocha-web": {}
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.2",
-        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
-      },
-      "accounts-entry": {
-        "git": "https://github.com/BeDifferential/accounts-entry.git",
-        "tag": "v0.5.3",
-        "commit": "20641be951a1a2e563cd2e6bf552f2cc8fe03984"
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
-        "tag": "v1.1.0",
-        "commit": "ed99c8e9280894519f44a5b4c84f66ff596c5450"
+        "tag": "v1.2.0",
+        "commit": "1b72c4e9d82af66293e50be4516c487d15d97464"
       },
       "simple-form": {
-        "git": "https://github.com/BeDifferential/simple-form.git",
-        "tag": "v0.0.20",
-        "commit": "fdba8e6604bfd71668304561a4fe6db3295bd1e9"
+        "git": "https://github.com/Differential/simple-form.git",
+        "tag": "v0.1.1",
+        "commit": "71360a47bd0c039b5e775c12c8ca87ee0e44a859"
       },
       "s3": {
         "git": "https://github.com/Lepozepo/S3.git",
-        "tag": "v1.2.5",
-        "commit": "602fd599206d9082f09bc4b5c69af9f7d4bc0707"
+        "tag": "v2.0.1",
+        "commit": "676176a255e1f161f0ff190a5603f505e988545f"
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
@@ -52,10 +51,15 @@
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
-      "just-i18n": {
-        "git": "https://github.com/subhog/meteor-just-i18n.git",
-        "tag": "v0.1.1",
-        "commit": "ce88ac66c0dc107dc2da93ce152616115838101f"
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
+        "tag": "v0.2.3",
+        "commit": "5a681e206ad455d29a0e445caedc7bb1cbc12f47"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
       },
       "underscore-string-latest": {
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",

@@ -2,10 +2,8 @@ AdminController = RouteController.extend
   yieldTemplates:
     header:
       to: 'header'
-  before: ->
-    unless Meteor.user()
-      @redirect('/sign-in')
-      @stop()
+  onBeforeAction: ->
+    AccountsEntry.signInRequired(@)
 
 Router.map ->
   @route 'home',
@@ -18,7 +16,6 @@ Router.map ->
 
   @route 'newPodcast',
     path: '/admin/podcasts/new'
-    controller: AdminController
     data: ->
       new Episode
 
@@ -29,6 +26,10 @@ Router.map ->
       action: ->
         @response.write Meteor.call 'serveRSS'
         @response.end()
+
+  @route 'tests',
+    path: '/tests'
+    layoutTemplate: 'tests'
 
   @route 'notFound',
     path: '*'

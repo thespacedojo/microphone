@@ -6,7 +6,6 @@
 standard-app-packages
 autopublish
 insecure
-preserve-inputs
 iron-router
 coffeescript
 less
@@ -19,3 +18,4 @@ s3
 minimongoid
 timeago
 npm
+mocha-web
