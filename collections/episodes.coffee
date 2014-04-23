@@ -3,6 +3,7 @@ class @Episode extends Minimongoid
 
   @before_create: (episode) ->
     episode.slug = Episode.slugify(episode.title)
+    episode.downloadCount = 0
     episode
 
   @slugify: (str) ->
