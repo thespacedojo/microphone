@@ -7,10 +7,12 @@
     },
     "handlebars-server": {},
     "simple-form": {},
-    "s3": {},
     "minimongoid": {},
     "timeago": {},
     "npm": {},
-    "mocha-web": {}
+    "mocha-web": {},
+    "s3-uploader": {
+      "git": "https://github.com/Differential/meteor-s3-uploader.git"
+    }
   }
 }

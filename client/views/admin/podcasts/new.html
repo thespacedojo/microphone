@@ -3,9 +3,7 @@
   <form>
     {{ text_field 'title' }}
     {{ text_area 'body' }}
-    {{#S3}}
-        <input type="file">
-    {{/S3}}
+    {{> s3upload file}}
     <input type="hidden" name="url">
     {{ submit_button 'Add podcast' }}
   </form>

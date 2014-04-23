@@ -19,6 +19,9 @@ Router.map ->
     data: ->
       new Episode
 
+  @route 's3setup',
+    path: '/admin/setup'
+
   if Meteor.isServer
     @route 'rss',
       where: 'server'

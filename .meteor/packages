@@ -14,8 +14,8 @@ accounts-entry
 accounts-password
 handlebars-server
 simple-form
-s3
 minimongoid
 timeago
 npm
 mocha-web
+s3-uploader
