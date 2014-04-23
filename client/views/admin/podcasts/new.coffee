@@ -13,4 +13,4 @@ Template.newPodcast.events
     formData = SimpleForm.processForm(event.target)
     formData['url'] = Session.get 'create.details.podcastUrl'
     Episode.create(formData)
-    Router.go('/admin/dashboard')
+    Router.go('/admin')

@@ -11,14 +11,19 @@ Router.map ->
     data: ->
       episodes: Episode.all()
 
+  @route 'episode',
+    path: '/episode/:slug'
+    data: ->
+      Episode.first({slug: @params.slug})
+
   @route 'dashboard',
-    path: '/dashboard'
+    path: '/admin'
     data: ->
       episodes: Episode.all()
 
 
   @route 'newPodcast',
-    path: '/admin/podcasts/new'
+    path: '/admin/episodes/new'
     data: ->
       new Episode
 

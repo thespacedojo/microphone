@@ -3,14 +3,7 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         {{#each episodes}}
-          <article>
-            <h3><a href="#">{{title}}</a></h3>
-            <p class="date">{{timeago createdAt}}</p>
-            {{body}}
-            {{#if url}}
-              <a href="{{url}}">Download</a>
-            {{/if}}
-          </article>
+          {{> episode}}
         {{/each}}
       </div>
     </div>
