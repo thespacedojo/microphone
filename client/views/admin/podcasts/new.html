@@ -1,10 +1,12 @@
 <template name="newPodcast">
-
+<div class="container">
   <form>
     {{ text_field 'title' }}
     {{ text_area 'body' }}
+    <h3>Upload a file</h3>
     {{> s3upload file}}
     <input type="hidden" name="url">
     {{ submit_button 'Add podcast' }}
   </form>
+</div>
 </template>
