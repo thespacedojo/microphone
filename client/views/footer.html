@@ -3,7 +3,7 @@
     <div class='container'>
       <ul class='nav navbar-nav navbar-right'>
         {{#if currentUser}}
-          <li><a href="/dashboard">Dashboard</a></li>
+          <li><a href="{{pathFor 'dashboard'}}">Dashboard</a></li>
         {{/if}}
         {{> accountButtons}}
         <li><a href="/tests">Tests</a></li>
