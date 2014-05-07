@@ -10,11 +10,15 @@
     "minimongoid": {},
     "timeago": {},
     "npm": {},
-    "mocha-web": {},
+    "mocha-web": {
+      "git": "https://github.com/mad-eye/meteor-mocha-web",
+      "branch": "mtr"
+    },
     "s3-uploader": {
       "git": "https://github.com/Differential/meteor-s3-uploader.git"
     },
     "reactive-table": {},
-    "inflectionizer": {}
+    "inflectionizer": {},
+    "velocity": {}
   }
 }
