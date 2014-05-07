@@ -21,6 +21,6 @@ Meteor.methods
        date: post.createdAt
        url: "#{host}/#{post._id}"
        guid: post._id
-       enclosure: {url: post.url}
+       enclosure: {url: "#{host}/download/#{post.slug}"}
 
     return feed.xml()

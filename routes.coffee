@@ -32,7 +32,7 @@ Router.map ->
   if Meteor.isServer
     @route 'rss',
       where: 'server'
-      path: '/rss/episodes'
+      path: '/rss'
       action: ->
         @response.write Meteor.call 'serveRSS'
         @response.end()
