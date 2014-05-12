@@ -4,6 +4,8 @@
 # but you can also edit it by hand.
 
 standard-app-packages
+velocity
+mocha-web
 autopublish
 insecure
 iron-router
@@ -17,8 +19,6 @@ simple-form
 minimongoid
 timeago
 npm
-mocha-web
 s3-uploader
 reactive-table
 inflectionizer
-velocity

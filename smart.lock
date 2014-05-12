@@ -2,6 +2,11 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
+      "velocity": {},
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web",
+        "branch": "mtr"
+      },
       "iron-router": {},
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
@@ -12,19 +17,24 @@
       "minimongoid": {},
       "timeago": {},
       "npm": {},
-      "mocha-web": {
-        "git": "https://github.com/mad-eye/meteor-mocha-web",
-        "branch": "mtr"
-      },
       "s3-uploader": {
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
         "branch": "master"
       },
       "reactive-table": {},
-      "inflectionizer": {},
-      "velocity": {}
+      "inflectionizer": {}
     },
     "packages": {
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "tag": "v0.1.0",
+        "commit": "ea9cfbf626aa29e3384ff84344c4029ee30cf00a"
+      },
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web",
+        "branch": "mtr",
+        "commit": "44a47d87437558d623709ee99b21a82cb54dcd43"
+      },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.7.1",
@@ -33,7 +43,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "e439e21985e91d71c4b93cdb3231cabc998db6a8"
+        "commit": "e51ff54c00fdaa86eb1c8930c099379ec4cc8780"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -47,8 +57,8 @@
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
-        "tag": "v0.8.3",
-        "commit": "8a4849426f1775f9886f303067e50877696fae43"
+        "tag": "v0.8.8",
+        "commit": "cf8d0bec44934d617544965977f270f2a8cdca02"
       },
       "timeago": {
         "git": "https://github.com/Differential/timeago.git",
@@ -60,11 +70,6 @@
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
-      "mocha-web": {
-        "git": "https://github.com/mad-eye/meteor-mocha-web",
-        "branch": "mtr",
-        "commit": "44a47d87437558d623709ee99b21a82cb54dcd43"
-      },
       "s3-uploader": {
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
         "branch": "master",
@@ -72,18 +77,13 @@
       },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
-        "tag": "v0.3.9",
-        "commit": "daaf8bb85fff77b652b872ecda69117bfcd230dd"
+        "tag": "v0.3.11",
+        "commit": "9ec88b8bcded8ced97cc8736f3d2ecbe3e7b926d"
       },
       "inflectionizer": {
         "git": "https://github.com/Differential/inflectionizer.git",
         "tag": "v0.2.0",
         "commit": "03d91efe8eb9461e5752d66de560e6c9db9bcce0"
-      },
-      "velocity": {
-        "git": "https://github.com/xolvio/velocity.git",
-        "tag": "v0.1.0",
-        "commit": "ea9cfbf626aa29e3384ff84344c4029ee30cf00a"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
@@ -102,8 +102,8 @@
       },
       "collection-hooks": {
         "git": "https://github.com/matb33/meteor-collection-hooks.git",
-        "tag": "v0.6.3",
-        "commit": "70f2598bf991cb36effd72aea2555cba96f88355"
+        "tag": "v0.6.7",
+        "commit": "f1d2ac629864edda09df6c955fa5ff3df26f739c"
       },
       "momentjs": {
         "git": "https://github.com/crapthings/meteor-momentjs.git",

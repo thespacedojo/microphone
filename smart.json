@@ -1,5 +1,10 @@
 {
   "packages": {
+    "velocity": {},
+    "mocha-web": {
+      "git": "https://github.com/mad-eye/meteor-mocha-web",
+      "branch": "mtr"
+    },
     "iron-router": {},
     "accounts-entry": {
       "git": "https://github.com/Differential/accounts-entry.git",
@@ -10,15 +15,10 @@
     "minimongoid": {},
     "timeago": {},
     "npm": {},
-    "mocha-web": {
-      "git": "https://github.com/mad-eye/meteor-mocha-web",
-      "branch": "mtr"
-    },
     "s3-uploader": {
       "git": "https://github.com/Differential/meteor-s3-uploader.git"
     },
     "reactive-table": {},
-    "inflectionizer": {},
-    "velocity": {}
+    "inflectionizer": {}
   }
 }
