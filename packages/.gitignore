@@ -32,3 +32,5 @@ just-i18n
 /cucumber
 /chai
 /velocity
+/mirror
+/selenium

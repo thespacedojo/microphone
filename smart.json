@@ -14,16 +14,18 @@
     "minimongoid": {},
     "timeago": {},
     "npm": {},
-    "cucumber": {
-      "git": "https://github.com/xdissent/meteor-cucumber.git",
-      "branch": "master"
-    },
     "mocha-web": {},
     "s3-uploader": {
       "git": "https://github.com/Differential/meteor-s3-uploader.git"
     },
     "reactive-table": {},
     "inflectionizer": {},
-    "chai": {}
+    "chai": {},
+    "mirror": {},
+    "selenium": {},
+    "cucumber": {
+      "git": "https://github.com/xdissent/meteor-cucumber.git",
+      "branch": "master"
+    }
   }
 }

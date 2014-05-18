@@ -16,10 +16,6 @@
       "minimongoid": {},
       "timeago": {},
       "npm": {},
-      "cucumber": {
-        "git": "https://github.com/xdissent/meteor-cucumber.git",
-        "branch": "master"
-      },
       "mocha-web": {},
       "s3-uploader": {
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
@@ -27,7 +23,13 @@
       },
       "reactive-table": {},
       "inflectionizer": {},
-      "chai": {}
+      "chai": {},
+      "mirror": {},
+      "selenium": {},
+      "cucumber": {
+        "git": "https://github.com/xdissent/meteor-cucumber.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "iron-router": {
@@ -38,7 +40,7 @@
       "velocity": {
         "git": "https://github.com/xolvio/velocity.git",
         "branch": "master",
-        "commit": "fd2f1c04121656f7c13e36a067c9cf26794e005c"
+        "commit": "910a9f9f3e729ae32425779139781108e21101c1"
       },
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
@@ -70,11 +72,6 @@
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
-      "cucumber": {
-        "git": "https://github.com/xdissent/meteor-cucumber.git",
-        "branch": "master",
-        "commit": "a4ff2b3d84eaa5557b27c8bac5ce002673a01de6"
-      },
       "mocha-web": {
         "git": "https://github.com/mad-eye/meteor-mocha-web.git",
         "tag": "v0.2.4",
@@ -99,6 +96,21 @@
         "git": "https://github.com/spacejamio/meteor-chai.git",
         "tag": "v0.1.5",
         "commit": "9c8f1f769839c946f11f580b8c6f8601f9286a66"
+      },
+      "mirror": {
+        "git": "https://github.com/xdissent/meteor-mirror.git",
+        "tag": "v0.0.1",
+        "commit": "445b652e51840094f41f5ec60b4f7f0297155ec6"
+      },
+      "selenium": {
+        "git": "https://github.com/xdissent/meteor-selenium.git",
+        "tag": "v0.0.1",
+        "commit": "7cb139816c0779a9518e55aa6b87686c6e01f3e8"
+      },
+      "cucumber": {
+        "git": "https://github.com/xdissent/meteor-cucumber.git",
+        "branch": "master",
+        "commit": "a4ff2b3d84eaa5557b27c8bac5ce002673a01de6"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
