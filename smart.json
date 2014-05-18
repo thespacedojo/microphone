@@ -1,6 +1,10 @@
 {
   "packages": {
     "iron-router": {},
+    "velocity": {
+      "git": "https://github.com/xolvio/velocity.git",
+      "branch": "master"
+    },
     "accounts-entry": {
       "git": "https://github.com/Differential/accounts-entry.git",
       "branch": "master"
@@ -10,11 +14,16 @@
     "minimongoid": {},
     "timeago": {},
     "npm": {},
+    "cucumber": {
+      "git": "https://github.com/xdissent/meteor-cucumber.git",
+      "branch": "master"
+    },
     "mocha-web": {},
     "s3-uploader": {
       "git": "https://github.com/Differential/meteor-s3-uploader.git"
     },
     "reactive-table": {},
-    "inflectionizer": {}
+    "inflectionizer": {},
+    "chai": {}
   }
 }

@@ -29,3 +29,6 @@ just-i18n
 /HTML5-History-API
 /reactive-table
 /inflectionizer
+/cucumber
+/chai
+/velocity

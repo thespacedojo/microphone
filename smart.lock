@@ -3,6 +3,10 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {},
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "branch": "master"
+      },
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master"
@@ -12,13 +16,18 @@
       "minimongoid": {},
       "timeago": {},
       "npm": {},
+      "cucumber": {
+        "git": "https://github.com/xdissent/meteor-cucumber.git",
+        "branch": "master"
+      },
       "mocha-web": {},
       "s3-uploader": {
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
         "branch": "master"
       },
       "reactive-table": {},
-      "inflectionizer": {}
+      "inflectionizer": {},
+      "chai": {}
     },
     "packages": {
       "iron-router": {
@@ -26,10 +35,15 @@
         "tag": "v0.7.1",
         "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
       },
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "branch": "master",
+        "commit": "fd2f1c04121656f7c13e36a067c9cf26794e005c"
+      },
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "7805026766a5970c184d7b11bff875027b7753c8"
+        "commit": "a6e3b502e0063774cf41084d55f411a63d59e0b7"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -43,38 +57,48 @@
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
-        "tag": "v0.8.3",
-        "commit": "8a4849426f1775f9886f303067e50877696fae43"
+        "tag": "v0.8.8",
+        "commit": "cf8d0bec44934d617544965977f270f2a8cdca02"
       },
       "timeago": {
-        "git": "https://github.com/BeDifferential/timeago.git",
-        "tag": "v0.0.3",
-        "commit": "39135ea44ba69503d6b1e1e17431a57cb315cb21"
+        "git": "https://github.com/Differential/timeago.git",
+        "tag": "v0.0.4",
+        "commit": "60914e8ea3d930febc724febdf137bcd818cb49d"
       },
       "npm": {
         "git": "https://github.com/arunoda/meteor-npm.git",
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
+      "cucumber": {
+        "git": "https://github.com/xdissent/meteor-cucumber.git",
+        "branch": "master",
+        "commit": "a4ff2b3d84eaa5557b27c8bac5ce002673a01de6"
+      },
       "mocha-web": {
         "git": "https://github.com/mad-eye/meteor-mocha-web.git",
-        "tag": "v0.2.3",
-        "commit": "5a681e206ad455d29a0e445caedc7bb1cbc12f47"
+        "tag": "v0.2.4",
+        "commit": "97194bc90ea9b32047973ff44562a3da3b4e7477"
       },
       "s3-uploader": {
         "git": "https://github.com/Differential/meteor-s3-uploader.git",
         "branch": "master",
-        "commit": "a032c1f0359b1e1cfd4219ec00670de2537ae29b"
+        "commit": "6182eabd4ec76fffdf4586479f7663882e89bd03"
       },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
-        "tag": "v0.3.6",
-        "commit": "c3d37f5ce5129133b8b88985f7f9c4a56548a1ed"
+        "tag": "v0.3.11",
+        "commit": "9ec88b8bcded8ced97cc8736f3d2ecbe3e7b926d"
       },
       "inflectionizer": {
         "git": "https://github.com/Differential/inflectionizer.git",
         "tag": "v0.2.0",
         "commit": "03d91efe8eb9461e5752d66de560e6c9db9bcce0"
+      },
+      "chai": {
+        "git": "https://github.com/spacejamio/meteor-chai.git",
+        "tag": "v0.1.5",
+        "commit": "9c8f1f769839c946f11f580b8c6f8601f9286a66"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
@@ -83,8 +107,8 @@
       },
       "accounts-t9n": {
         "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
-        "tag": "v0.0.3",
-        "commit": "d1710f979d6955459d9ce0374df81d22c3c6a6ab"
+        "tag": "v0.0.5",
+        "commit": "ad9539a8818049d5d9fa050d8b2a1f62706483b1"
       },
       "underscore-string-latest": {
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
@@ -93,8 +117,8 @@
       },
       "collection-hooks": {
         "git": "https://github.com/matb33/meteor-collection-hooks.git",
-        "tag": "v0.6.3",
-        "commit": "70f2598bf991cb36effd72aea2555cba96f88355"
+        "tag": "v0.6.7",
+        "commit": "f1d2ac629864edda09df6c955fa5ff3df26f739c"
       },
       "momentjs": {
         "git": "https://github.com/crapthings/meteor-momentjs.git",
@@ -106,11 +130,6 @@
         "tag": "v1.2.8",
         "commit": "68844ba216c348d332bdb840825850f497f515bb"
       },
-      "router": {
-        "git": "https://github.com/tmeasday/meteor-router.git",
-        "tag": "v0.6.1",
-        "commit": "8ec75fec7affdefc787d19f23b36fd6d1d44ef04"
-      },
       "bootboxjs": {
         "git": "https://github.com/digilord/meteor-bootboxjs.git",
         "branch": "master",
@@ -120,16 +139,6 @@
         "git": "https://github.com/subhog/meteor-just-i18n.git",
         "tag": "v0.2.4",
         "commit": "91decfcf5b3b5e67f202a67658350b862330bf3d"
-      },
-      "page-js-ie-support": {
-        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
-        "tag": "v1.3.5",
-        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
-      },
-      "HTML5-History-API": {
-        "git": "https://github.com/tmeasday/meteor-HTML5-History-API.git",
-        "tag": "v4.0.0",
-        "commit": "dc4965f1424cfca625ec3fbea17eace03f8e32c5"
       }
     }
   }

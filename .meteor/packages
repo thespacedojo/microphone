@@ -6,6 +6,8 @@
 standard-app-packages
 autopublish
 insecure
+velocity
+cucumber
 iron-router
 coffeescript
 less
@@ -21,3 +23,5 @@ mocha-web
 s3-uploader
 reactive-table
 inflectionizer
+mirror
+chai
