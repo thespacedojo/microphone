@@ -12,6 +12,7 @@
     "npm": {},
     "mocha-web": {},
     "reactive-table": {},
-    "inflectionizer": {}
+    "inflectionizer": {},
+    "uploader": {}
   }
 }

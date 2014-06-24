@@ -14,13 +14,19 @@
       "npm": {},
       "mocha-web": {},
       "reactive-table": {},
-      "inflectionizer": {}
+      "inflectionizer": {},
+      "uploader": {}
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.7.1",
         "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "accounts-entry": {
+        "git": "https://github.com/Differential/accounts-entry.git",
+        "branch": "master",
+        "commit": "8a0602839fd0e040e2c304a0d8661405eba0ba81"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -62,10 +68,20 @@
         "tag": "v0.2.0",
         "commit": "03d91efe8eb9461e5752d66de560e6c9db9bcce0"
       },
+      "uploader": {
+        "git": "https://github.com/Differential/meteor-uploader",
+        "tag": "v0.1.0",
+        "commit": "5ae811becd44ec73c7884240a8bcee4580db9dfb"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
         "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "accounts-t9n": {
+        "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
+        "tag": "v0.0.5",
+        "commit": "ad9539a8818049d5d9fa050d8b2a1f62706483b1"
       },
       "underscore-string-latest": {
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
@@ -76,6 +92,11 @@
         "git": "https://github.com/subhog/meteor-just-i18n.git",
         "tag": "v0.3.0",
         "commit": "a60e7f4350fb9648d6f6b4a01acbbc114c4f4343"
+      },
+      "streams": {
+        "git": "https://github.com/arunoda/meteor-streams.git",
+        "tag": "v0.1.17",
+        "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
       }
     }
   }

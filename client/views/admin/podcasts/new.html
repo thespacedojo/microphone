@@ -1,10 +1,29 @@
 <template name="newPodcast">
 <div class="container">
-  <form>
-    {{ text_field 'title' }}
-    {{ text_area 'body' }}
-    <input type="hidden" name="url">
-    {{ submit_button 'Add podcast' }}
-  </form>
+    <form>
+      {{ text_field 'title' }}
+      {{ text_area 'body' }}
+      {{#if fileUploaded}}
+        <div class="form-group">
+          <h4><i class="fa fa-check"></i>Podcast episode is uploaded.</h4>
+        </div>
+      {{else}}
+        <h3>Upload a file</h3>
+        <div class="row">
+          <div class="form-group col-md-4">
+            {{#uploader settings=file}}
+              <button class="btn btn-primary">
+                <i class="fa fa-upload"></i> Upload Podcast Episode
+              </button>
+            {{/uploader}}
+            <input type="hidden" name="url">
+          </div>
+        </div>
+      {{/if}}
+
+      <div>
+        {{ submit_button 'Add podcast' }}
+      </div>
+    </form>
 </div>
 </template>
