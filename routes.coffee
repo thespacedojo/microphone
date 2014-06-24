@@ -11,7 +11,7 @@ Router.map ->
     waitOn: ->
       Meteor.subscribe 'publishedEpisodes'
     data: ->
-      episodes: Episode.all()
+      episodes: Episode.where({}, {sort: {createdAt: -1}})
 
   @route 'episode',
     path: '/episode/:slug'

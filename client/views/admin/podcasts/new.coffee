@@ -20,3 +20,7 @@ Template.episodeForm.events
     else
       Episode.create(formData)
     Router.go('/admin')
+
+  'click .removePodcast': (event) ->
+    Meteor.call('uploaderDelete', @url)
+    @update({url: null})

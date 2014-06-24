@@ -23,9 +23,12 @@
           </div>
         </div>
       {{/if}}
+      {{#if url}}
+        <a href="#" class="removePodcast">Remove podcast</a> 
+      {{/if}}
 
       <div class="form-group">
-        {{ submit_button 'Add podcast' }}
+        {{ submit_button }}
       </div>
     </form>
 </div>
