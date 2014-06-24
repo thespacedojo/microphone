@@ -1,30 +1,38 @@
-AdminController = RouteController.extend
+@AdminController = RouteController.extend
   yieldTemplates:
     header:
       to: 'header'
   onBeforeAction: ->
-    AccountsEntry.signInRequired(@)
+    AccountsEntry.signInRequired(@, @pause)
 
 Router.map ->
   @route 'home',
     path: '/'
+    waitOn: ->
+      Meteor.subscribe 'publishedEpisodes'
     data: ->
       episodes: Episode.all()
 
   @route 'episode',
     path: '/episode/:slug'
+    waitOn: ->
+      Meteor.subscribe 'episode', @params.slug
     data: ->
       Episode.first({slug: @params.slug})
 
   @route 'dashboard',
     path: '/admin'
+    waitOn: ->
+      Meteor.subscribe 'allEpisodes'
     data: ->
       episodes: Episode.all()
+    controller: 'AdminController'
 
   @route 'newPodcast',
     path: '/admin/episodes/new'
     data: ->
       new Episode
+    controller: 'AdminController'
 
   @route 'editPodcast',
     path: '/admin/episodes/:slug'
@@ -33,6 +41,7 @@ Router.map ->
 
   @route 's3setup',
     path: '/admin/setup'
+    controller: 'AdminController'
 
   if Meteor.isServer
     @route 'rss',
