@@ -28,16 +28,21 @@ Router.map ->
       episodes: Episode.all()
     controller: 'AdminController'
 
-  @route 'newPodcast',
+  @route 'episodeForm',
     path: '/admin/episodes/new'
     data: ->
       new Episode
     controller: 'AdminController'
 
-  @route 'editPodcast',
+  @route 'episodeForm',
     path: '/admin/episodes/:slug'
+    waitOn: ->
+      Meteor.subscribe 'episode', @params.slug
     data: ->
       Episode.first({slug: @params.slug})
+    onBeforeAction: ->
+      Session.set 'episodeSlug', @params.slug
+    controller: 'AdminController'
 
   if Meteor.isServer
     @route 'rss',

@@ -22,6 +22,6 @@ Template.dashboard.helpers
         key: 'id'
         label: 'Edit'
         fn: (value, obj) ->
-          new Spacebars.SafeString "<a href=\"" + Router.path('editPodcast', { slug: obj.slug }) + "\"><i class=\"fa fa-pencil\"></i></a>"
+          new Spacebars.SafeString "<a href=\"" + Router.path('episodeForm', { slug: obj.slug }) + "\"><i class=\"fa fa-pencil\"></i></a>"
       },
     ]
