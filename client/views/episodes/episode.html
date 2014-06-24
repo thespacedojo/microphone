@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
         <article>
-          <h3><a href="{{pathFor 'episode'}}">{{title}}</a></h3>
+          <h3><a class="title" href="{{pathFor 'episode'}}">{{title}}</a></h3>
           <p class="date">{{timeago createdAt}}</p>
           {{body}}
           {{#if url}}

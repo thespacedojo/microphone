@@ -21,7 +21,8 @@
     "reactive-table": {},
     "inflectionizer": {},
     "chai": {},
-    "mirror": {},
+    "mirror": {
+    },
     "selenium": {},
     "cucumber": {
       "git": "https://github.com/xdissent/meteor-cucumber.git",

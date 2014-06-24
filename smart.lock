@@ -40,7 +40,7 @@
       "velocity": {
         "git": "https://github.com/xolvio/velocity.git",
         "branch": "master",
-        "commit": "910a9f9f3e729ae32425779139781108e21101c1"
+        "commit": "d34cb51dbe04730302108955e80b2887b11d11c1"
       },
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
@@ -99,8 +99,8 @@
       },
       "mirror": {
         "git": "https://github.com/xdissent/meteor-mirror.git",
-        "tag": "v0.0.1",
-        "commit": "445b652e51840094f41f5ec60b4f7f0297155ec6"
+        "tag": "v0.0.2",
+        "commit": "03d965dcab2f976a1fdc6ce513edcd4c17b75746"
       },
       "selenium": {
         "git": "https://github.com/xdissent/meteor-selenium.git",
@@ -110,7 +110,7 @@
       "cucumber": {
         "git": "https://github.com/xdissent/meteor-cucumber.git",
         "branch": "master",
-        "commit": "a4ff2b3d84eaa5557b27c8bac5ce002673a01de6"
+        "commit": "ce27a9efc42ad9c89d9434f6060b7515a2dbcb65"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

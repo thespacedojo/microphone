@@ -1,5 +1,4 @@
 module.exports = function() {
-  chai.should();
 
   this.Given(/^(\d+) episodes exist$/, function (number, callback) {
     Episode.destroyAll();
@@ -14,7 +13,11 @@ module.exports = function() {
   });
 
   this.Then(/^I should see (\d+) episodes with titles$/, function (number, callback) {
-    this.zombie.browser.queryAll("article h3").length.should.equal(parseInt(number))
-    callback();
+    titles = this.zombie.browser.queryAll("article h3")
+    if (titles.length === parseInt(number)) {
+      return callback();
+    } else {
+      callback.fail("There aren't " + number + " episode titles on the page");
+    }
   });
 }
