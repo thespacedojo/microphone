@@ -26,6 +26,11 @@ Router.map ->
     data: ->
       new Episode
 
+  @route 'editPodcast',
+    path: '/admin/episodes/:slug'
+    data: ->
+      Episode.first({slug: @params.slug})
+
   @route 's3setup',
     path: '/admin/setup'
 
