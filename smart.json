@@ -13,6 +13,11 @@
     "mocha-web": {},
     "reactive-table": {},
     "inflectionizer": {},
-    "uploader": {}
+    "uploader": {},
+    "jasmine-unit": {
+      "git": "https://github.com/xolvio/jasmine-unit",
+      "branch": "master"
+    },
+    "velocity-html-reporter": {}
   }
 }

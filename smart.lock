@@ -15,7 +15,12 @@
       "mocha-web": {},
       "reactive-table": {},
       "inflectionizer": {},
-      "uploader": {}
+      "uploader": {},
+      "jasmine-unit": {
+        "git": "https://github.com/xolvio/jasmine-unit",
+        "branch": "master"
+      },
+      "velocity-html-reporter": {}
     },
     "packages": {
       "iron-router": {
@@ -26,7 +31,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "8a0602839fd0e040e2c304a0d8661405eba0ba81"
+        "commit": "7c4176085d170f4fb15077f4a73c8d2fdaaecf7b"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -35,8 +40,8 @@
       },
       "simple-form": {
         "git": "https://github.com/Differential/simple-form.git",
-        "tag": "v0.1.6",
-        "commit": "415283df846623243d4bc1f295a8ad6ddd91dda1"
+        "tag": "v0.1.8",
+        "commit": "1ea0d3621b333e6f24f37e0e93efd3c081068716"
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
@@ -73,6 +78,16 @@
         "tag": "v0.1.0",
         "commit": "5ae811becd44ec73c7884240a8bcee4580db9dfb"
       },
+      "jasmine-unit": {
+        "git": "https://github.com/xolvio/jasmine-unit",
+        "branch": "master",
+        "commit": "3f539f5c839b011c354babdfe9762020067e7c74"
+      },
+      "velocity-html-reporter": {
+        "git": "https://github.com/rissem/velocity-html-reporter.git",
+        "tag": "v0.1.0",
+        "commit": "9e03afe1853fbe8118fd2ad5c7c803be28ec4deb"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -97,6 +112,16 @@
         "git": "https://github.com/arunoda/meteor-streams.git",
         "tag": "v0.1.17",
         "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
+      },
+      "package-stubber": {
+        "git": "https://github.com/alanning/meteor-package-stubber.git",
+        "tag": "v0.0.5",
+        "commit": "753a0f64a18b721223a7a1149dbab4af959382d5"
+      },
+      "mirror": {
+        "git": "https://github.com/xdissent/meteor-mirror.git",
+        "tag": "v0.0.2",
+        "commit": "03d965dcab2f976a1fdc6ce513edcd4c17b75746"
       }
     }
   }

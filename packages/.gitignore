@@ -31,3 +31,8 @@ just-i18n
 /inflectionizer
 /uploader
 /streams
+/jasmine-unit
+/package-stubber
+/velocity
+/velocity-html-reporter
+/mirror

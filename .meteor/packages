@@ -4,8 +4,10 @@
 # but you can also edit it by hand.
 
 standard-app-packages
+velocity
 iron-router
 coffeescript
+jasmine-unit
 less
 accounts-ui
 accounts-entry
@@ -19,3 +21,4 @@ mocha-web
 reactive-table
 inflectionizer
 uploader
+velocity-html-reporter
