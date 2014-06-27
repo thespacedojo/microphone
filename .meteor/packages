@@ -5,9 +5,9 @@
 
 standard-app-packages
 velocity
+jasmine-unit
 iron-router
 coffeescript
-jasmine-unit
 less
 accounts-ui
 accounts-entry
@@ -17,7 +17,6 @@ simple-form
 minimongoid
 timeago
 npm
-mocha-web
 reactive-table
 inflectionizer
 uploader

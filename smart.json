@@ -1,5 +1,10 @@
 {
   "packages": {
+    "velocity": {},
+    "jasmine-unit": {
+      "git": "https://github.com/xolvio/jasmine-unit",
+      "branch": "master"
+    },
     "iron-router": {},
     "accounts-entry": {
       "git": "https://github.com/Differential/accounts-entry.git",
@@ -14,10 +19,6 @@
     "reactive-table": {},
     "inflectionizer": {},
     "uploader": {},
-    "jasmine-unit": {
-      "git": "https://github.com/xolvio/jasmine-unit",
-      "branch": "master"
-    },
     "velocity-html-reporter": {}
   }
 }
