@@ -2,7 +2,10 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "velocity": {},
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "branch": "master"
+      },
       "jasmine-unit": {
         "git": "https://github.com/xolvio/jasmine-unit",
         "branch": "master"
@@ -17,22 +20,24 @@
       "minimongoid": {},
       "timeago": {},
       "npm": {},
-      "mocha-web": {},
       "reactive-table": {},
       "inflectionizer": {},
       "uploader": {},
-      "velocity-html-reporter": {}
+      "velocity-html-reporter": {
+        "git": "https://github.com/rissem/velocity-html-reporter",
+        "branch": "master"
+      }
     },
     "packages": {
       "velocity": {
         "git": "https://github.com/xolvio/velocity.git",
-        "tag": "v0.1.7",
-        "commit": "7e6ea897d78eb298e145f2ee7c588854cfa1e171"
+        "branch": "master",
+        "commit": "4ca7bf09c007476d80cbe303a4d702f2ba76b2fd"
       },
       "jasmine-unit": {
         "git": "https://github.com/xolvio/jasmine-unit",
         "branch": "master",
-        "commit": "3f539f5c839b011c354babdfe9762020067e7c74"
+        "commit": "d96a7e46ec5bcb3fdf8a3c8c0b75e084dc168c1b"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
@@ -69,11 +74,6 @@
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
-      "mocha-web": {
-        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
-        "tag": "v0.2.4",
-        "commit": "97194bc90ea9b32047973ff44562a3da3b4e7477"
-      },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
         "tag": "v0.3.14",
@@ -90,19 +90,14 @@
         "commit": "5ae811becd44ec73c7884240a8bcee4580db9dfb"
       },
       "velocity-html-reporter": {
-        "git": "https://github.com/rissem/velocity-html-reporter.git",
-        "tag": "v0.1.0",
-        "commit": "9e03afe1853fbe8118fd2ad5c7c803be28ec4deb"
+        "git": "https://github.com/rissem/velocity-html-reporter",
+        "branch": "master",
+        "commit": "2c28f1390d2c009a804c1b62691a9e8f72f5af18"
       },
       "package-stubber": {
         "git": "https://github.com/alanning/meteor-package-stubber.git",
-        "tag": "v0.0.5",
-        "commit": "753a0f64a18b721223a7a1149dbab4af959382d5"
-      },
-      "mirror": {
-        "git": "https://github.com/xdissent/meteor-mirror.git",
-        "tag": "v0.0.2",
-        "commit": "03d965dcab2f976a1fdc6ce513edcd4c17b75746"
+        "tag": "v0.0.7",
+        "commit": "f6d76ae3c9107d25e42bc5b297a8799145e99f73"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

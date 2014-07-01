@@ -21,3 +21,4 @@ reactive-table
 inflectionizer
 uploader
 velocity-html-reporter
+package-stubber

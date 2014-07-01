@@ -1,6 +1,9 @@
 {
   "packages": {
-    "velocity": {},
+    "velocity": {
+      "git": "https://github.com/xolvio/velocity.git",
+      "branch": "master"
+    },
     "jasmine-unit": {
       "git": "https://github.com/xolvio/jasmine-unit",
       "branch": "master"
@@ -15,10 +18,12 @@
     "minimongoid": {},
     "timeago": {},
     "npm": {},
-    "mocha-web": {},
     "reactive-table": {},
     "inflectionizer": {},
     "uploader": {},
-    "velocity-html-reporter": {}
+    "velocity-html-reporter": {
+      "git": "https://github.com/rissem/velocity-html-reporter",
+      "branch": "master"
+    }
   }
 }

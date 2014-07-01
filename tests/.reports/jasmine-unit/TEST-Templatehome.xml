@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Template.home" errors="0" tests="1" failures="0" time="0.001" timestamp="2014-06-30T21:26:23">
+  <testcase classname="Template.home" name="should return episodes sorted by their createdAt date descending" time="0.001"></testcase>
+</testsuite>
+</testsuites>
