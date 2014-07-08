@@ -19,3 +19,5 @@ mocha-web
 reactive-table
 inflectionizer
 uploader
+velocity
+velocity-html-reporter

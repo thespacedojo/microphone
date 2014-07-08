@@ -12,7 +12,10 @@
       "minimongoid": {},
       "timeago": {},
       "npm": {},
-      "mocha-web": {},
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web",
+        "branch": "velocity"
+      },
       "reactive-table": {},
       "inflectionizer": {},
       "uploader": {}
@@ -54,9 +57,9 @@
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
       },
       "mocha-web": {
-        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
-        "tag": "v0.2.4",
-        "commit": "97194bc90ea9b32047973ff44562a3da3b4e7477"
+        "git": "https://github.com/mad-eye/meteor-mocha-web",
+        "branch": "velocity",
+        "commit": "57776ea64ec5b432ca7b44f97ec42744fdb27520"
       },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
@@ -87,6 +90,11 @@
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
         "tag": "v2.3.3",
         "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
+      },
+      "mirror": {
+        "git": "https://github.com/xdissent/meteor-mirror.git",
+        "tag": "v0.0.2",
+        "commit": "03d965dcab2f976a1fdc6ce513edcd4c17b75746"
       },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",

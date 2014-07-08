@@ -31,3 +31,5 @@ just-i18n
 /inflectionizer
 /uploader
 /streams
+/mocha-web-velocity
+/chai
