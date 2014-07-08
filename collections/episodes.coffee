@@ -8,3 +8,13 @@ class @Episode extends Minimongoid
 
   @slugify: (str) ->
     str.toLowerCase().replace(/[^\w ]+/g, "").replace(RegExp(" +", "g"), "-")
+
+@Episode._collection.allow
+  insert: (userId, doc) ->
+    userId
+
+  update: (userId, doc, fields) ->
+    userId
+
+  remove: (userId, doc) ->
+    userId
