@@ -26,7 +26,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "8a0602839fd0e040e2c304a0d8661405eba0ba81"
+        "commit": "4d830f21b3e084a7896869d5b28d1755327845c4"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -35,8 +35,8 @@
       },
       "simple-form": {
         "git": "https://github.com/Differential/simple-form.git",
-        "tag": "v0.1.6",
-        "commit": "415283df846623243d4bc1f295a8ad6ddd91dda1"
+        "tag": "v0.1.8",
+        "commit": "1ea0d3621b333e6f24f37e0e93efd3c081068716"
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
@@ -70,8 +70,8 @@
       },
       "uploader": {
         "git": "https://github.com/Differential/meteor-uploader",
-        "tag": "v0.1.0",
-        "commit": "5ae811becd44ec73c7884240a8bcee4580db9dfb"
+        "tag": "v0.1.1",
+        "commit": "cbf53acf0ea5c07cb414f48914f3f4a59b4c2b7c"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
