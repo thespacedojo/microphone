@@ -33,3 +33,6 @@ just-i18n
 /streams
 /mocha-web-velocity
 /chai
+/velocity
+/velocity-html-reporter
+/mirror
