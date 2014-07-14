@@ -7,7 +7,7 @@ if (!(typeof MochaWeb === 'undefined')){
       it("makes the first one an admin", function() {
         Meteor.users.remove({});
         Accounts.createUser({email: 'joe@sixpack.com', password: 'abcd1234'})
-        console.log 'error'
+        Meteor.users.find({}).fetch[0].admin.should.be.true
       });
     });
   });
