@@ -1,4 +1,7 @@
 Template.dashboard.helpers
+  episodes: ->
+    Episode.all().toArray()
+
   settings: ->
     fields: [
       {
@@ -19,6 +22,6 @@ Template.dashboard.helpers
         key: 'id'
         label: 'Edit'
         fn: (value, obj) ->
-          new Spacebars.SafeString "<a href=\"#\"><i class=\"fa fa-pencil\"></i></a>"
+          new Spacebars.SafeString "<a href=\"" + Router.path('episodeForm', { slug: obj.slug }) + "\"><i class=\"fa fa-pencil\"></i></a>"
       },
     ]

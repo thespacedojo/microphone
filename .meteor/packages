@@ -4,8 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
-insecure
 iron-router
 coffeescript
 less
@@ -18,6 +16,6 @@ minimongoid
 timeago
 npm
 mocha-web
-s3-uploader
 reactive-table
 inflectionizer
+uploader

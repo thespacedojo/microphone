@@ -13,12 +13,9 @@
       "timeago": {},
       "npm": {},
       "mocha-web": {},
-      "s3-uploader": {
-        "git": "https://github.com/Differential/meteor-s3-uploader.git",
-        "branch": "master"
-      },
       "reactive-table": {},
-      "inflectionizer": {}
+      "inflectionizer": {},
+      "uploader": {}
     },
     "packages": {
       "iron-router": {
@@ -29,7 +26,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "7805026766a5970c184d7b11bff875027b7753c8"
+        "commit": "4d830f21b3e084a7896869d5b28d1755327845c4"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -38,18 +35,18 @@
       },
       "simple-form": {
         "git": "https://github.com/Differential/simple-form.git",
-        "tag": "v0.1.1",
-        "commit": "71360a47bd0c039b5e775c12c8ca87ee0e44a859"
+        "tag": "v0.1.8",
+        "commit": "1ea0d3621b333e6f24f37e0e93efd3c081068716"
       },
       "minimongoid": {
         "git": "https://github.com/Exygy/minimongoid.git",
-        "tag": "v0.8.3",
-        "commit": "8a4849426f1775f9886f303067e50877696fae43"
+        "tag": "v0.8.8",
+        "commit": "cf8d0bec44934d617544965977f270f2a8cdca02"
       },
       "timeago": {
-        "git": "https://github.com/BeDifferential/timeago.git",
-        "tag": "v0.0.3",
-        "commit": "39135ea44ba69503d6b1e1e17431a57cb315cb21"
+        "git": "https://github.com/Differential/timeago.git",
+        "tag": "v0.0.4",
+        "commit": "60914e8ea3d930febc724febdf137bcd818cb49d"
       },
       "npm": {
         "git": "https://github.com/arunoda/meteor-npm.git",
@@ -58,23 +55,23 @@
       },
       "mocha-web": {
         "git": "https://github.com/mad-eye/meteor-mocha-web.git",
-        "tag": "v0.2.3",
-        "commit": "5a681e206ad455d29a0e445caedc7bb1cbc12f47"
-      },
-      "s3-uploader": {
-        "git": "https://github.com/Differential/meteor-s3-uploader.git",
-        "branch": "master",
-        "commit": "a032c1f0359b1e1cfd4219ec00670de2537ae29b"
+        "tag": "v0.2.4",
+        "commit": "97194bc90ea9b32047973ff44562a3da3b4e7477"
       },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
-        "tag": "v0.3.6",
-        "commit": "c3d37f5ce5129133b8b88985f7f9c4a56548a1ed"
+        "tag": "v0.3.14",
+        "commit": "f5d7105393d5aa038b3f680e5af1adff2a04d4b0"
       },
       "inflectionizer": {
         "git": "https://github.com/Differential/inflectionizer.git",
         "tag": "v0.2.0",
         "commit": "03d91efe8eb9461e5752d66de560e6c9db9bcce0"
+      },
+      "uploader": {
+        "git": "https://github.com/Differential/meteor-uploader",
+        "tag": "v0.1.1",
+        "commit": "cbf53acf0ea5c07cb414f48914f3f4a59b4c2b7c"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
@@ -83,53 +80,23 @@
       },
       "accounts-t9n": {
         "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
-        "tag": "v0.0.3",
-        "commit": "d1710f979d6955459d9ce0374df81d22c3c6a6ab"
+        "tag": "v0.0.5",
+        "commit": "ad9539a8818049d5d9fa050d8b2a1f62706483b1"
       },
       "underscore-string-latest": {
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
         "tag": "v2.3.3",
         "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
       },
-      "collection-hooks": {
-        "git": "https://github.com/matb33/meteor-collection-hooks.git",
-        "tag": "v0.6.3",
-        "commit": "70f2598bf991cb36effd72aea2555cba96f88355"
-      },
-      "momentjs": {
-        "git": "https://github.com/crapthings/meteor-momentjs.git",
-        "tag": "v2.1.0.2",
-        "commit": "59a762e297082eea8b8cae00374c2b7ac6f89529"
-      },
-      "roles": {
-        "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.2.8",
-        "commit": "68844ba216c348d332bdb840825850f497f515bb"
-      },
-      "router": {
-        "git": "https://github.com/tmeasday/meteor-router.git",
-        "tag": "v0.6.1",
-        "commit": "8ec75fec7affdefc787d19f23b36fd6d1d44ef04"
-      },
-      "bootboxjs": {
-        "git": "https://github.com/digilord/meteor-bootboxjs.git",
-        "branch": "master",
-        "commit": "64c297ee6205ca1dc13a610e0b55092f93916d0d"
-      },
       "just-i18n": {
         "git": "https://github.com/subhog/meteor-just-i18n.git",
-        "tag": "v0.2.4",
-        "commit": "91decfcf5b3b5e67f202a67658350b862330bf3d"
+        "tag": "v0.3.0",
+        "commit": "a60e7f4350fb9648d6f6b4a01acbbc114c4f4343"
       },
-      "page-js-ie-support": {
-        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
-        "tag": "v1.3.5",
-        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
-      },
-      "HTML5-History-API": {
-        "git": "https://github.com/tmeasday/meteor-HTML5-History-API.git",
-        "tag": "v4.0.0",
-        "commit": "dc4965f1424cfca625ec3fbea17eace03f8e32c5"
+      "streams": {
+        "git": "https://github.com/arunoda/meteor-streams.git",
+        "tag": "v0.1.17",
+        "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
       }
     }
   }

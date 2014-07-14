@@ -1,16 +1,26 @@
-Template.newPodcast.helpers
+Template.episodeForm.helpers
   file: ->
     name: 'newPodcast'
-    current: Session.get 'create.details.podcastUrl'
     onUpload: (err, result) ->
       Session.set 'create.details.podcastUrl', result.url.replace /^http:/, ''
-    onDelete: (err, result) ->
-      Session.set 'create.details.podcastUrl', null
 
-Template.newPodcast.events
+  fileUploaded: ->
+    Session.get 'create.details.podcastUrl'
+
+Template.episodeForm.events
   'submit form': (event) ->
     event.preventDefault()
     formData = SimpleForm.processForm(event.target)
     formData['url'] = Session.get 'create.details.podcastUrl'
-    Episode.create(formData)
+    Session.set 'create.details.podcastUrl', null
+    if Session.get('episodeSlug')
+      episode = Episode.first({slug: Session.get('episodeSlug')})
+      episode.update(formData)
+      Session.set 'episodeSlug', undefined
+    else
+      Episode.create(formData)
     Router.go('/admin')
+
+  'click .removePodcast': (event) ->
+    Meteor.call 'uploaderDelete', @url, =>
+      @update({url: null})
