@@ -29,7 +29,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "4d830f21b3e084a7896869d5b28d1755327845c4"
+        "commit": "5cbe67e0d2adc2ae4d0e9f18be3ed49d469c3a40"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",

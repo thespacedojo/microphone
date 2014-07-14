@@ -10,7 +10,7 @@ if (!(typeof MochaWeb === 'undefined')){
       });
 
       after(function() {
-        episode.destroy()
+        episode.destroy();
       });
 
       describe("slugify on creation", function() {
