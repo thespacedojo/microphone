@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-suite('Posts', function() {
+suite('Episode', function() {
   test('should use slugify', function(done, server) {
     server.eval(function() {
       Episode.create({title: 'Episode 15 - Google Ventures'});
