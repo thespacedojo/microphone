@@ -26,7 +26,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "4d830f21b3e084a7896869d5b28d1755327845c4"
+        "commit": "6ea37affd93e953bbd0998b484c3ebf0f176d8df"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -60,8 +60,8 @@
       },
       "reactive-table": {
         "git": "https://github.com/ecohealthalliance/reactive-table.git",
-        "tag": "v0.3.14",
-        "commit": "f5d7105393d5aa038b3f680e5af1adff2a04d4b0"
+        "tag": "v0.3.15",
+        "commit": "be996c811ef4232818bc51439f7cfc8deac9e012"
       },
       "inflectionizer": {
         "git": "https://github.com/Differential/inflectionizer.git",
