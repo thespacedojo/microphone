@@ -1,4 +1,4 @@
 Uploader.config
-  key: 'AKIAI44G3J23BTPHQPDA'
-  secret: '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'
-  bucket: 'microphone-demo'
+  key: Meteor.settings.key
+  secret: Meteor.settings.secret
+  bucket: Meteor.settings.bucket
