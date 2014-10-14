@@ -4,18 +4,25 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-iron-router
 coffeescript
 less
 accounts-ui
-accounts-entry
 accounts-password
-handlebars-server
-simple-form
-minimongoid
-timeago
-npm
-mocha-web
-reactive-table
-inflectionizer
-uploader
+joshowens:simple-form
+joshowens:timeago
+meteorhacks:npm
+accounts-facebook
+joshowens:shareit
+joshowens:accounts-entry
+mrt:minimongoid
+schnie:uploader
+iron:router
+
+mizzao:bootstrap-3
+cmather:handlebars-server
+aslagle:reactive-table
+
+
+npm-container
+joshowens:inflectionizer
+
